@@ -6,7 +6,7 @@ end
 
 def batch_badge_creator(attendees)
   badge_names = []
-  attendees.each do |name|
+  attendees.map do |name|
     badge_names << "Hello my name is #{name}."
   end
   puts badge_names
