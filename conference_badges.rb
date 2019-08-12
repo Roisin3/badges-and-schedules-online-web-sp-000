@@ -12,5 +12,3 @@ end
 
 def printer
 end
-
-badge_maker("Arel")
