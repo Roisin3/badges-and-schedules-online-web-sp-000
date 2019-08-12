@@ -7,9 +7,8 @@ end
 def batch_badge_creator(attendees)
   badge_names = []
   attendees.map do |name|
-    badge_names << "Hello my name is #{name}."
+    "Hello my name is #{name}."
   end
-  puts badge_names
 end
 
 def assign_rooms
